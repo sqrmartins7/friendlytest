@@ -1,0 +1,185 @@
+#paineis-sobre {
+	margin-top: 20px;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+header.principal, header.tarefas {
+	background-size: cover;
+	background-position: top center;
+
+}
+
+header.principal{
+	background-image: url(../img/flower.jpg);
+	height: 100%;
+}
+
+header h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#busca{
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	width: 80%;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.top-banner {
+	color: #FFF;
+	background-color: rgba(0, 0, 0, .5);
+	padding: 20px;
+	width: 80%;
+	border-radius: 5px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: .3s;
+}
+
+footer {
+	background-color: #333;
+	color: #FFF;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+footer address:last-child {
+	margin-bottom: 0;
+}
+
+@media(min-width: 768px) {
+	#paineis-sobre {
+		margin-top: 0;	
+		width: 500px;
+	}
+}
+
+@media(min-width: 992px) {
+	.top-banner {
+		left: 0;
+		transform: translate(0, -80%);
+		width: 50%;
+	}
+
+	.top-bannerWrapper {
+		position: relative;
+		height: 100%;
+	}
+}
+
+
+table.resultado{
+	margin: auto;
+	min-width: 300px;
+}
+
+table{
+	width: 100%;
+}
+
+td, th{
+	text-align: justify;
+	padding: 5px;
+}
+
+td{
+	vertical-align:top;
+}
+
+th#descricao{
+	width: 60%;
+}
+
+th#opções{
+	width: 12%;
+}
+
+div#prioridade{
+	color:white; 
+	text-align:center;
+	border: 1px solid none;
+	border-radius: 20px;
+}
+
+tr.visibilidade{
+	display: none;
+}
+
+#botao{
+	text-align: right;
+}
+
+a.btn{
+	border:none;
+	display:inline-block;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:white;
+	background-color:#0C0;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+
+}
+
+a.btn:hover{
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1);
+}
+
+a.btn:disabled{
+	cursor:not-allowed;
+	opacity:0.3;
+}
+
+a.btn:visited{
+	text-decoration: none;
+}
+
+.alinhar{
+	display: inline-block;
+	text-align: left;
+}
+
+textarea, input[type="text"], select{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 2px;
+}
+
+input[type="text"], select{
+	height: 30px;
+}
+
+div#form{
+	width: 100%;
+	margin: auto;
+}
+
+div#form fieldset{
+	width: 30%;
+	min-width: 200px;
+	margin: auto;
+}
+
+button.submit{
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color:#008000;
+	color: white;
+}
+
+a.btn, button.submit{
+	border: 1px solid none;
+	border-radius: 7px;
+}
