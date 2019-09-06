@@ -1,22 +1,147 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html>
 <head>
-	<meta charset="utf-8"/>
-	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-	<title>Friendly Test - We value life.</title>
-	<link href="css/home.css" rel="stylesheet"/>
-	<script src="scripts/home.js"></script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 <body>
-  <section> 
-    <h4>
-      Desejamos as boas-vindas!
-    </h4>
-    <p>
-      O site está em manutenção por enquanto :c <br>
-      Estamos trabalhando em mudanças incríveis! <br>
-      Para manter  contato que tal nos mandar uma mensagem? giana@keemail.me
-    </p>
-  </section>
+		
+	<header class="principal">
+		<nav class="navbar navbar-default">
+			<div class="container">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand" href="#"><strong>FRIENDLY</strong> <small>test</small></a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="collapse-navbar">
+					<ul class="nav navbar-nav">
+						<li><a href="#questao1">Sobre o app</a></li>
+						<li><a href="#questao2">O projeto</a></li>
+						<li><a href="#questao3">Sobre nós</a></li>
+						<li><a href="#questao4">Contato</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container top-bannerWrapper">
+			<div class="top-banner">
+				<h1>Friendly Test</h1>
+				<p>O app que vai salvar animais!<br>
+				   Dando visibilidade a marcas que não testam em animais por meio de informações confiáveis</p>
+				<!-- <button class="btn btn-primary btn-lg">Contate-nos agora</button> -->
+			</div>
+		</div>
+
+	</header>
+
+	<section id="questao1" class="container">
+		<h2>Sobre o app</h2>
+		<div class="row">
+			<img class="img-responsive col-sm-5" src="assets/img/phone.jpg" alt="Foto de um telefone fixo grande, cor de rosa, antigo; ao lado de um smartphone branco">
+
+			<div class="panel-group col-sm-5" id="paineis-sobre">
+				<div class="panel panel-default">
+					<div class="panel-heading" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">
+						<h3 class="panel-title">Proposta</h3>
+					</div>
+					<div id="primeiro-paragrafo" class="collapse-in">
+						<div class="panel-body">
+							<p>Que tal você ir ao supermercado e conferir na hora se aquele produto bacana que você quer comprar é testado em animais ou não?<br>
+							Com o Friendly test isso será possivel! Basta usar nosso leitor de código de barras, se o produto for testado em animais nós não te deixamos na mão! Damos sugestões para uma troca compativel \o/
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br><br>
+	</section>
+
+	<section id="questao2" class="container">
+		<h2>O projeto</h2>
+
+		<div class="row">
+			<div class="panel-group col-sm-5" id="paineis-sobre">
+				<div class="panel panel-default">
+					<div class="panel-heading" data-toggle="collapse" data-target="#quarto-paragrafo" data-parent="#paineis-sobre">
+						<h3 class="panel-title">Conhecendo a necessidade</h3>
+					</div>
+
+					<div class="collapse in" id="quarto-paragrafo">
+						<div class="panel-body">
+							Duas amigas ECO reparam na dificuldade de encontrar a indicação nas embalagens de cosméticos se eles são testados ou não em animais.
+						</div>
+					</div>
+				</div>
+		</div>
+		
+		<img class="img-responsive col-sm-5" src="assets/img/green.jpg" alt="Foto de uma mão pintada de verde, segurando uma planta da mesma cor">
+	</section><br><br>
+
+	<section id="questao3" class="container">
+		<h2>Sobre nós</h2>
+		<img class="img-responsive col-sm-5" src="assets/img/boat.jpg" alt="">
+		<div class="row">
+			<div class="panel-group col-sm-5" id="paineis-sobre">
+				<div class="panel panel-default">
+					<div class="panel-heading" data-toggle="collapse" data-target="#sexto-paragrafo" data-parent="#paineis-sobre">
+						<h3 class="panel-title">Vai timee \o/</h3>
+					</div>
+
+					<div class="collapse in" id="sexto-paragrafo">
+						<div class="panel-body">
+							Uma designer e uma programadora unem forças para empreender
+						</div>
+					</div>
+				</div>
+		</div>
+	</section><br><br>
+
+	<section id="questao4" class="container">
+		<h2>Contato</h2>
+
+		<div class="row">
+			<div class="panel-group col-sm-5" id="paineis-sobre">
+				<div class="panel panel-default">
+					<div class="panel-heading" data-toggle="collapse" data-target="#oitavo-paragrafo" data-parent="#paineis-sobre">
+						<h3 class="panel-title">Contato</h3>
+					</div>
+
+					<div class="collapse in" id="oitavo-paragrafo">
+						<div class="panel-body">
+							Quer conhecer mais sobre o nosso projeto? Envie um email para giana@keemail.me 
+						</div>
+					</div>
+				</div>
+		</div>
+		<img class="img-responsive col-sm-5" src="assets/img/happy.jpg" alt="Foto de dois bonequinhos feitos a partir de relevos em uma superficie">
+	</section><br><br>
+
+
+	<footer>
+		<address>
+			<strong>Friendly test</strong><br>
+			Florianópolis, SC<br>
+			Tel: (48) 999-509-007
+		</address>
+		<address>
+			E-mail: giana@keemail.me
+		</address>
+	</footer>
+
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/navbar-animation-fix.js"></script>
 </body>
 </html>
